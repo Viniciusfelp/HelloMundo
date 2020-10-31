@@ -1,0 +1,25 @@
+const array= ["Recife", "Olinda", "Itamaracá", 100]
+
+//Printando todos os dados do array:
+console.log(array);
+
+//Criando um array vazio:
+const array2=[];
+console.log(array2);
+
+//Adicionando elementos no array através do método push():
+array.push("Tamandaré","Carne de Vaca")
+console.log(array);
+
+//Adicionando sabendo o tamanho do array:
+console.log(array.length);//O array tem tamanho 6( 6 elementos)
+array[6]="Cabrobó";
+console.log(array)
+
+//O método pop para retira o ultimo elemento do array
+array.pop();//Tirei "Cabrobó"
+console.log(array);
+
+//Deletando elementos do array pelo indice.
+delete array[3];//Tirei 100
+console.log(array);
